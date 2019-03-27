@@ -6,14 +6,7 @@ oscurito: #2a2b2e */
 body {
     background: #181d27;
     font-family: 'Roboto', sans-serif;
-}
-
-h1 {
     color: #dadff7;
-}
-
-#main-title {
-    font-size: x-large;
     text-align: center;
 }
 
@@ -22,9 +15,11 @@ h1 {
 }
 
 #logo-home {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-    
+    padding-top: 5px;
+    max-width: 20%;
+    min-width: 180px;
+}
+
+#boxes {
+    padding-top: 5%;
 }
