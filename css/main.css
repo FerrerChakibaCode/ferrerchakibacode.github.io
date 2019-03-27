@@ -10,6 +10,10 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 #name-title {
     font-family: 'Work Sans', sans-serif;
 }
@@ -23,3 +27,4 @@ body {
 #boxes {
     padding-top: 5%;
 }
+
