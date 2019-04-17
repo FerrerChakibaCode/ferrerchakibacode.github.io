@@ -1,17 +1,32 @@
 /* COLORES
-main: #181d27
-letras: #dadff7
-oscurito: #2a2b2e */
+De mas oscuro a mas claro:
+#181d27
+#034078
+#449dd1
+#134074
+#fefcfb
+#bacada
+
+Gradient:
+032f58
+033563
+033b6e
+034078
+195184
+306290
+47749c
+bacada*/
 
 body {
-    background: #181d27;
+    background-image:linear-gradient(#010c16, #032f58,#033563,#033b6e,#034078,#195184,#306290,#47749c,#bacada);
     font-family: 'Roboto', sans-serif;
-    color: #dadff7;
+    color: #fefcfb;
     text-align: center;
 }
 
 a {
     text-decoration: none;
+    text-emphasis-color: none;
 }
 
 #name-title {
@@ -19,12 +34,24 @@ a {
 }
 
 #logo-home {
-    padding-top: 5px;
+    padding-top: 18px;
+    padding-bottom: 30px;
     max-width: 20%;
     min-width: 180px;
 }
 
 #boxes {
     padding-top: 5%;
+    padding-bottom: 3%;
 }
 
+#navavila {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barra {
+    background: #034078;
+    align-content: center;
+}
