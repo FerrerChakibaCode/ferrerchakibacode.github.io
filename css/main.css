@@ -19,6 +19,7 @@ bacada*/
 
 body {
     background-image:linear-gradient(#010c16, #032f58,#033563,#033b6e,#034078,#195184,#306290,#47749c,#bacada);
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     color: #fefcfb;
     text-align: center;
