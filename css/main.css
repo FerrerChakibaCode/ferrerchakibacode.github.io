@@ -24,7 +24,9 @@ body {
     color: #fefcfb;
     text-align: center;
 }
-
+a:link, a:visited, a:hover, a:active {
+    color: #fefcfb;
+}
 a {
     text-decoration: none;
     text-emphasis-color: none;
@@ -55,4 +57,5 @@ a {
 .barra {
     background: #034078;
     align-content: center;
+    color: snow;
 }
